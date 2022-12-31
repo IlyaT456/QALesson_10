@@ -8,13 +8,13 @@ version '1.0-SNAPSHOT'
 
 allure {
     report {
-        version.set("2.20.1") //версия Allure Report
+        version.set("2.19.0") //версия Allure Report
     }
     adapter {
         aspectjWeaver.set(true) // обработка аннотации @Step
         frameworks {
             junit5 {
-                adapterVersion.set("2.20.1") //версия Allure JUnit5
+                adapterVersion.set("2.19.0") //версия Allure JUnit5
             }
         }
     }
@@ -28,7 +28,7 @@ dependencies {
     implementation (
             'com.codeborne:selenide:6.10.2',
             'org.junit.jupiter:junit-jupiter:5.9.1',
-            'io.qameta.allure:allure-selenide:2.20.1'
+            'io.qameta.allure:allure-selenide:2.19.0'
     )
 }
 
