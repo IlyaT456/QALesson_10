@@ -2,6 +2,7 @@ package qa.guru.allure;
 
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
+import io.qameta.allure.internal.shadowed.jackson.databind.ser.Serializers;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selectors.withText;
@@ -9,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.linkText;
 
-public class WebTest {
+public class WebTest extends BaseTest {
 
     @Step("Открытие главной")
     public void openMainPage() {

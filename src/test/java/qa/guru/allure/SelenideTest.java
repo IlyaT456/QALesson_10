@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.openqa.selenium.By.linkText;
 
 
-public class SelenideTest {
+public class SelenideTest extends BaseTest{
 
     @Test
     public void testIssueSearch() {

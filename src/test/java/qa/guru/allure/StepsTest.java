@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
-public class StepsTest {
+public class StepsTest extends BaseTest{
 
     private static final String REPOSITORY = "lmmedina90/repository123";
     private static final String ISSUES = "to issues!";
